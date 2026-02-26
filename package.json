@@ -1,0 +1,42 @@
+{
+  "name": "@suraj/dev-journal-mcp",
+  "version": "1.0.0",
+  "description": "A personal dev journal MCP server — log your daily work and generate standups via Claude",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "dev-journal-mcp": "dist/bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/bin/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "claude",
+    "developer-journal",
+    "standup",
+    "productivity"
+  ],
+  "author": "Suraj Shrestha",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "better-sqlite3": "^9.4.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.8",
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
