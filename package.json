@@ -1,6 +1,6 @@
 {
   "name": "@nepvibe/dev-journal-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A personal dev journal MCP server — log your daily work and generate standups via Claude",
   "type": "module",
   "main": "dist/server.js",
