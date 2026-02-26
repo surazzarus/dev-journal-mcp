@@ -1,5 +1,5 @@
 {
-  "name": "@suraj/dev-journal-mcp",
+  "name": "@nepvibe/dev-journal-mcp",
   "version": "1.0.0",
   "description": "A personal dev journal MCP server — log your daily work and generate standups via Claude",
   "type": "module",
